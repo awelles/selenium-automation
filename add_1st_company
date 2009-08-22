@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>add_1st_company</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">add_1st_company</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/main_app</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add Companies</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_name</td>
+	<td>Company Inc</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_street</td>
+	<td>123 Main Street</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_city</td>
+	<td>Boston</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_state</td>
+	<td>MA</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_zip_code</td>
+	<td>02147</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_country</td>
+	<td>USA</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_phone</td>
+	<td>617-000-0000</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_fax</td>
+	<td>617-000-0000</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_industry</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_description</td>
+	<td>Decription of Company Inc.</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='submit']</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

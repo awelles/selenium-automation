@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>populate</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">populate</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/login?next=/main_app</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_username</td>
+	<td>usera</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_location</td>
+	<td>boston, ma</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_terms</td>
+	<td>term1, term2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//form[@id='signup-form']/p[4]/input</td>
+	<td>usera@email.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_password1</td>
+	<td>password</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_password2</td>
+	<td>password</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Sign Up']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add Contact</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_salutation</td>
+	<td>label=Mr.</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_first_name</td>
+	<td>John</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_last_name</td>
+	<td>Twiddle</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_job_title</td>
+	<td>Ceo</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_description</td>
+	<td>description.</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_phone</td>
+	<td>617-000-0000</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_email</td>
+	<td>john@twiddle.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_street</td>
+	<td>123 main street</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_city</td>
+	<td>Boston</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_state</td>
+	<td>MA</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_country</td>
+	<td>USA</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_im</td>
+	<td>johnny147</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAtAndWait</td>
+	<td>link=Add Contact</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_salutation</td>
+	<td>label=Mrs.</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_first_name</td>
+	<td>Deborah</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_last_name</td>
+	<td>Miller</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_job_title</td>
+	<td>Chief Engineer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_description</td>
+	<td>description</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_phone</td>
+	<td>617-555-9876</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_email</td>
+	<td>deborah@email.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_street</td>
+	<td>12 harpor ave</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_city</td>
+	<td>boston</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_state</td>
+	<td>MA</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_zip_code</td>
+	<td>02143</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_country</td>
+	<td>USA</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_im</td>
+	<td>debby43</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id_introduced_by</td>
+	<td>label=John Twiddle</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add Contact</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_salutation</td>
+	<td>label=Dr.</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_first_name</td>
+	<td>Albert</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_last_name</td>
+	<td>Einstein</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_job_title</td>
+	<td>Clerk</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_description</td>
+	<td>description</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_phone</td>
+	<td>617-555-1212</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_email</td>
+	<td>al@mensa.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_street</td>
+	<td>12 honey street</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_city</td>
+	<td>New York</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_state</td>
+	<td>NY</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_zip_code</td>
+	<td>01243</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_country</td>
+	<td>USA</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_im</td>
+	<td>al1497</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id_introduced_by</td>
+	<td>label=John Twiddle</td>
+</tr>
+<tr>
+	<td>removeSelection</td>
+	<td>id_introduced_by</td>
+	<td>label=John Twiddle</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id_introduced_by</td>
+	<td>label=Deborah Miller</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add Companies</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_name</td>
+	<td>MIcrosoft Inc</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_street</td>
+	<td>44 some street</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_city</td>
+	<td>SomeCity</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_state</td>
+	<td>CA</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_zip_code</td>
+	<td>04499</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_country</td>
+	<td>USA</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_phone</td>
+	<td>210-111-1456</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_fax</td>
+	<td>210-111-0000</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_description</td>
+	<td>microsoft</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id_contacts</td>
+	<td>label=Deborah Miller</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id_contacts</td>
+	<td>label=John Twiddle</td>
+</tr>
+<tr>
+	<td>removeSelection</td>
+	<td>id_contacts</td>
+	<td>label=Deborah Miller</td>
+</tr>
+<tr>
+	<td>removeSelection</td>
+	<td>id_contacts</td>
+	<td>label=John Twiddle</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id_contacts</td>
+	<td>label=Deborah Miller</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id_contacts</td>
+	<td>label=John Twiddle</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add Companies</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_name</td>
+	<td>Enterprise Inc</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_street</td>
+	<td>44 Albony Ave</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_city</td>
+	<td>Dorchester</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_state</td>
+	<td>MA</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_zip_code</td>
+	<td>02111</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_country</td>
+	<td>USA</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_phone</td>
+	<td>617-222-9987</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_fax</td>
+	<td>617-000-1102</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_type</td>
+	<td>label=Other</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_description</td>
+	<td>description</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id_contacts</td>
+	<td>label=Albert Einstein</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAtAndWait</td>
+	<td>link=Add Opportunities</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_name</td>
+	<td>Great Job</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_company_id</td>
+	<td>label=MIcrosoft Inc</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_type</td>
+	<td>label=Full time</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_amount</td>
+	<td>$4,000,000</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_rate</td>
+	<td>label=Annual</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_web</td>
+	<td>www.microsoft.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id_cover</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_application</td>
+	<td>label=Mail</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_instruction</td>
+	<td>instructions</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_description</td>
+	<td>description</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_referral</td>
+	<td>label=Albert Einstein</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id_contacts</td>
+	<td>label=Albert Einstein</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id_contacts</td>
+	<td>label=Deborah Miller</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add Opportunities</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_name</td>
+	<td>Another Job</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_company_id</td>
+	<td>label=Enterprise Inc</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_type</td>
+	<td>label=Full time</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_amount</td>
+	<td>6000</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_web</td>
+	<td>enter.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id_cover</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_instruction</td>
+	<td>instructions</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_description</td>
+	<td>description</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_referral</td>
+	<td>label=John Twiddle</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id_contacts</td>
+	<td>label=John Twiddle</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add Task</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_name</td>
+	<td>A Thing to Do</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_contact_id</td>
+	<td>label=Deborah Miller</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_opportunity_id</td>
+	<td>label=Great Job</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_company_id</td>
+	<td>label=MIcrosoft Inc</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add Task</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_name</td>
+	<td>Call my mom</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_contact_id</td>
+	<td>label=Deborah Miller</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_opportunity_id</td>
+	<td>label=Great Job</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_company_id</td>
+	<td>label=Enterprise Inc</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_priority</td>
+	<td>label=Lowest</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_status</td>
+	<td>label=Deferred</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_status</td>
+	<td>label=ToDo</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add Events</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_name</td>
+	<td>Carnival of Ages</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_start</td>
+	<td>1/1/2011</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_end</td>
+	<td>1/1/2011</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_location</td>
+	<td>Boston MA</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_contact_id</td>
+	<td>label=Deborah Miller</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_company_id</td>
+	<td>label=MIcrosoft Inc</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_opportunity_id</td>
+	<td>label=Another Job</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_description</td>
+	<td>awesome</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add Events</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_name</td>
+	<td>Event Thingy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_start</td>
+	<td>9/3/2009</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_end</td>
+	<td>9/3/2010</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_location</td>
+	<td>Boston MA</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_contact_id</td>
+	<td>label=John Twiddle</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_company_id</td>
+	<td>label=Enterprise Inc</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id_opportunity_id</td>
+	<td>label=Great Job</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id_description</td>
+	<td>thingy</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/logout</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
